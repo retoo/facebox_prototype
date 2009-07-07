@@ -5,6 +5,7 @@ div#facebox {
 	z-index: 100;
 	text-align: center;
 	overflow: hidden;
+	width: 370px;
 }
 
 #facebox div.top-left {
@@ -24,6 +25,7 @@ div#facebox {
 #facebox div.top-left div.top-right div.top-span {
 	background: url(../images/facebox/b.png) repeat-x left top;
 	height: 10px;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -44,17 +46,20 @@ div#facebox {
 #facebox div.bottom-left div.bottom-right div.bottom-span {
 	background: url(../images/facebox/b.png) repeat-x left top;
 	height: 10px;
+	width: 100%;
 	overflow: hidden;
 }
 
 #facebox div.container-left {
 	background: url(../images/facebox/b.png) repeat-y left top;
 	padding-left: 10px;
+	overflow: hidden;
 }
 
 #facebox div.container-right {
 	background: url(../images/facebox/b.png) repeat-y right top;
 	padding-right: 10px;
+	overflow: hidden;
 }
 
 #facebox div.container {
@@ -62,7 +67,6 @@ div#facebox {
 	position: relative;
 	padding: 10px;
 	background: #fff;
-	width: 370px;
 	text-align: left;
 }
 
